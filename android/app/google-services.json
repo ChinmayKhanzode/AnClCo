@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "159942420637",
+    "project_id": "anclco",
+    "storage_bucket": "anclco.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159942420637:android:ef4b4dfd93a9fe51748c74",
+        "android_client_info": {
+          "package_name": "com.example.food_ordering"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159942420637-d123djudlndiopse7olsb9386push8if.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhPpvpjDabHoe0vr1dJ16N4XDwH1UMo7s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "159942420637-d123djudlndiopse7olsb9386push8if.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "159942420637-stm0s7s07jmaavi692r6eoob3ldsbv29.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.foodOrdering"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

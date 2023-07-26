@@ -1,3 +1,4 @@
+import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -9,7 +10,7 @@ import '../widgets/dish_item.dart';
 import '../widgets/venues.dart';
 
 class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+  HomeScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -88,7 +89,7 @@ class HomeScreen extends StatelessWidget {
         ]),
 
         // CarouselSlider-------
-        const bannerCarouselSlider(),
+        bannerCarouselSlider(),
 
         const SizedBox(
           height: 10,

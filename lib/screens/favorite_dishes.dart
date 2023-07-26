@@ -16,6 +16,7 @@ class FavoriteDishesScreen extends ConsumerWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
+            const
             Text(
               "My Favorites",
               style: TextStyle(fontSize: 15),
