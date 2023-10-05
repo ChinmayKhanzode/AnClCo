@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:food_ordering/screens/cart_screen.dart';
 import 'package:food_ordering/screens/favorite_dishes.dart';
 import 'package:food_ordering/screens/home.dart';
+import 'package:food_ordering/screens/profile.dart';
 
 class Tabs extends StatefulWidget {
   const Tabs({super.key});
@@ -33,7 +34,7 @@ class _TabsState extends State<Tabs> {
       if (_SelectedPageIndex == 1) {
         content = CartScreen();
       } else {
-        content = Center(child: Text("User Profile to be added"));
+        content = profile();
       }
     }
 

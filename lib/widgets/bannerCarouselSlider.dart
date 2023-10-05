@@ -1,10 +1,9 @@
 // ignore_for_file: camel_case_types
 import 'package:firebase_storage/firebase_storage.dart';
 import 'package:flutter/material.dart';
-import 'package:food_ordering/data/HomePageData.dart';
 
 class bannerCarouselSlider extends StatefulWidget {
-  bannerCarouselSlider({super.key});
+  const bannerCarouselSlider({super.key});
 
   @override
   State<bannerCarouselSlider> createState() {
